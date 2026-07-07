@@ -1,6 +1,6 @@
 {
     "name": "Ambiente Json",
-    "short_name": "Ambiente JSON",
+    "short_name": "Ambiente Img JSON",
     "start_url": "./",
     "display": "standalone",
     "background_color": "#ffffff",
