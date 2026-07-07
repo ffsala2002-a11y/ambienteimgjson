@@ -1,15 +1,40 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ambiente Imagens Json</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./src/img/json.png">
+    <link rel="stylesheet" href="./temp.css">
+    <title>Gerar ambiente json</title>
 </head>
-<body style="display: flex; justify-content: center; align-items: center; width: 100vw; height: 100vh; background-color: rgb(210, 0, 0);">
 
-    <div>
-        <h1>Teste</h1>
-    </div>
+<body>
+
+    <main class="container">
+        <div id="alertTxt"></div>
+
+        <header class="cabecalho">
+            <h1>Gerador de {imagens.json}</h1>
+        </header>
+
+        <section class="box-archive">
+            <div class="box-input">
+                <label for="arquivo" class="btn-upload"></label>
+                <input type="file" id="arquivo" accept=".txt" hidden>
+                <span id="nomeArquivo">Nome apareça aqui</span>
+            </div>
+
+            <button id="gerar">Gerar JSON</button>
+        </section>
+
+        <p id="status"></p>
+        <span class="ass">©Desenvolvido por DiegoDEV 🇧🇷</span>
+    </main>
+
+
+    <script type="module" src="./app.js"></script>
 
 </body>
+
 </html>
